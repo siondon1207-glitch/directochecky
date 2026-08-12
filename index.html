@@ -1,23 +1,965 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
+
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "2026 볼보 EX90 가격 및 모델별 견적 비교 완벽 가이드",
+      "url": "https://volvo.reliabledone.com/volvo-ex90-price",
+      "description": "2026년형 볼보 EX90 국내 출시 가격표와 트림별 견적, 보조금 혜택 및 장기렌트, 리스 최저가 비교 분석 정보를 제공합니다.",
+      "mainEntity": {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "볼보 EX90의 국내 공식 출시 가격은 얼마인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "2026년형 볼보 EX90의 시작 가격은 트윈 모터 플러스 7인승 기준 1억 620만 원이며, 최상위 트림인 트윈 모터 퍼포먼스 울트라 6인승은 1억 2,320만 원으로 책정되었습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "볼보 EX90의 실질적인 보조금 지원금 혜택은 어떻게 되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "수입 대형 전기차 가격대 특성상 국비 보조금은 일부 제한적으로 지원되며, 각 지자체별 전기차 구매 지원금 기준에 따라 최종 예상 구매 금액이 달라질 수 있으므로 견적 계산기나 어플을 통한 정확한 세부 계산이 필요합니다."
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+        
+        :root {
+            --primary-color: #0f172a; /* 신뢰감 있는 딥 네이비 슬레이트 */
+            --secondary-color: #0d9488; /* 세련된 에코 그린/틸 */
+            --accent-color: #d97706; /* 프리미엄 골드 엠버 */
+            --background-light: #f8fafc; /* 부드러운 화이트 회색 */
+            --text-dark: #0f172a;
+            --text-light: #ffffff;
+            --border-color: #e2e8f0;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.9;
+            background-color: var(--background-light);
+            color: var(--text-dark);
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #1e293b 100%);
+            color: var(--text-light);
+            padding: 4rem 2rem;
+            text-align: center;
+            border-bottom: 5px solid var(--secondary-color);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -0.05em;
+            line-height: 1.3;
+        }
+
+        header p {
+            font-size: 1.25rem;
+            margin-top: 1.5rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        nav {
+            margin-top: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        nav a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            padding: 0.75rem 1.5rem;
+            background-color: rgba(255, 255, 255, 0.08);
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        nav a:hover {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            background-color: var(--card-bg);
+            padding: 3.5rem;
+            margin-bottom: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
+            border: 1px solid var(--border-color);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-2px);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 2.1rem;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            border-left: 6px solid var(--secondary-color);
+            padding-left: 15px;
+            line-height: 1.3;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1.2rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+            color: #334155;
+        }
+
+        strong {
+            color: var(--primary-color);
+            font-weight: 700;
+        }
+
+        /* 표 스타일 */
+        .table-responsive {
+            overflow-x: auto;
+            margin: 2rem 0;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 1.1rem 1.3rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            font-weight: 700;
+            text-align: center;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+
+        /* 키워드 태그 클라우드 */
+        .keyword-tags {
+            margin: 2rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .keyword-tags span {
+            background-color: #f1f5f9;
+            color: #475569;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            border: 1px solid #e2e8f0;
+            transition: all 0.2s ease;
+        }
+
+        .keyword-tags span:hover {
+            background-color: var(--secondary-color);
+            color: var(--text-light);
+            border-color: var(--secondary-color);
+        }
+
+        /* 그래프 스타일 */
+        .graph-container {
+            margin: 2.5rem 0;
+            padding: 2.5rem;
+            background-color: #f8fafc;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        .graph-title {
+            font-weight: 700;
+            font-size: 1.15rem;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .graph-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.25rem;
+        }
+
+        .graph-label {
+            width: 180px;
+            font-weight: 500;
+            color: #475569;
+            font-size: 0.9rem;
+        }
+
+        .graph-bar-wrapper {
+            flex-grow: 1;
+            height: 32px;
+            background-color: #e2e8f0;
+            border-radius: 6px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .graph-bar-value {
+            height: 100%;
+            background: linear-gradient(90deg, var(--secondary-color) 0%, #14b8a6 100%);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 12px;
+            color: var(--text-light);
+            font-weight: 700;
+            font-size: 0.85rem;
+            transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* 실시간 견적 계산기 폼 */
+        .calculator-box {
+            background-color: #f8fafc;
+            border: 2px solid var(--border-color);
+            border-radius: 16px;
+            padding: 3rem;
+            margin: 2.5rem 0;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+            section {
+                padding: 2rem;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            font-weight: 700;
+            margin-bottom: 0.6rem;
+            color: var(--primary-color);
+            font-size: 0.95rem;
+        }
+
+        .form-group input, .form-group select {
+            padding: 0.85rem 1rem;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            font-size: 1rem;
+            background-color: var(--text-light);
+            color: var(--text-dark);
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus, .form-group select:focus {
+            outline: none;
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.15);
+        }
+
+        .form-group-full {
+            grid-column: 1 / -1;
+        }
+
+        .range-slider-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .range-slider-container input[type="range"] {
+            flex-grow: 1;
+            accent-color: var(--secondary-color);
+        }
+
+        .range-value {
+            font-weight: 700;
+            color: var(--secondary-color);
+            width: 50px;
+            text-align: right;
+        }
+
+        .btn-calculate {
+            display: block;
+            width: 100%;
+            background-color: var(--secondary-color);
+            color: var(--text-light);
+            font-weight: 700;
+            font-size: 1.15rem;
+            padding: 1.1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .btn-calculate:hover {
+            background-color: #0f766e;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(13, 148, 136, 0.2);
+        }
+
+        .calc-result-panel {
+            margin-top: 2.5rem;
+            padding: 2rem;
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            border-radius: 12px;
+            display: none;
+            border-left: 6px solid var(--accent-color);
+        }
+
+        .calc-result-panel h4 {
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-light);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+            padding-bottom: 0.5rem;
+        }
+
+        .result-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+            padding-bottom: 0.5rem;
+        }
+
+        .result-row:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .result-row span.val {
+            font-weight: 700;
+            color: #38bdf8;
+        }
+
+        .result-total {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid rgba(255, 255, 255, 0.2);
+            font-size: 1.35rem;
+            font-weight: 700;
+        }
+
+        .result-total span.total-val {
+            color: #f59e0b;
+            font-size: 1.7rem;
+        }
+
+        /* 아코디언 FAQ */
+        .faq-wrapper {
+            margin-top: 2rem;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.5rem 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-weight: 700;
+            font-size: 1.15rem;
+            color: var(--primary-color);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: color 0.2s ease;
+        }
+
+        .faq-question:hover {
+            color: var(--secondary-color);
+        }
+
+        .faq-answer {
+            margin-top: 1rem;
+            color: #475569;
+            font-size: 0.95rem;
+            display: none;
+            padding-left: 10px;
+            border-left: 3px solid var(--secondary-color);
+            line-height: 1.8;
+        }
+
+        /* 외부 참고 사이트 영역 */
+        .external-links {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        @media (max-width: 600px) {
+            .external-links {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .external-links a {
+            display: block;
+            background-color: #f1f5f9;
+            color: var(--primary-color);
+            text-decoration: none;
+            padding: 1.1rem;
+            border-radius: 8px;
+            font-weight: 500;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .external-links a:hover {
+            background-color: var(--secondary-color);
+            color: var(--text-light);
+            border-color: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+
+        .cta-bottom-button {
+            display: block;
+            background-color: var(--accent-color);
+            color: var(--text-light);
+            font-weight: 700;
+            padding: 1.3rem 2.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            text-align: center;
+            margin: 3rem auto;
+            max-width: 400px;
+            font-size: 1.2rem;
+            box-shadow: 0 10px 20px rgba(217, 119, 6, 0.15);
+            transition: all 0.3s ease;
+        }
+
+        .cta-bottom-button:hover {
+            background-color: #b45309;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(180, 83, 9, 0.3);
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: #94a3b8;
+            padding: 3rem 1.5rem;
+            text-align: center;
+            font-size: 0.9rem;
+            border-top: 5px solid var(--secondary-color);
+        }
+
+        footer strong {
+            color: var(--text-light);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>2026 볼보 EX90 가격 및 모델별 견적 비교 완벽 가이드</h1>
+        <p>대한민국 공식 출시 스펙을 기반으로 한 합리적인 리스, 장기렌트 실시간 금융 조건 및 예상 보조금 정밀 분석</p>
+        <nav>
+            <ul>
+                <li><a href="#intro">시장 동향</a></li>
+                <li><a href="#price-table">공식 가격표</a></li>
+                <li><a href="#buying-strategy">구매 프로세스</a></li>
+                <li><a href="#reviews">커뮤니티 후기</a></li>
+                <li><a href="#calculator">실시간 견적 계산기</a></li>
+                <li><a href="#faq">자주 묻는 질문</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-      <h1>Home page</h1>
+        <section id="intro">
+            <h2>볼보 EX90의 국내 출시 배경과 프리미엄 수입 전기 SUV 시장 분석</h2>
+            <p>스웨덴의 글로벌 프리미엄 브랜드 볼보자동차가 마침내 차세대 플래그십 순수 대형 전기 SUV인 볼보 EX90을 대한민국 시장에 공식 출시하며 사전 예약 대기 고객들의 출고 갈증을 해결하기 시작했습니다. 이번 EX90은 볼보가 약 100년에 걸쳐 정립해 온 탄탄한 안전 헤리티지와 혁신적인 첨단 IT 솔루션이 고밀도로 집약된 친환경 모델로, 완전한 자율주행 시대를 예고하는 정교한 카메라 인프라와 첨단 주행 보조 하드웨어 패키지인 안전 공간 기술을 전 라인업에 기본 적용한 것이 특징입니다.</p>
+            <p>네이버 및 구글 트렌드 상위 노출 자료와 유튜브 전문 크리에이터들의 실제 주행 후기 분석에 따르면, 볼보 EX90 가격은 동급 수입 프리미엄 브랜드 대형 전기차나 하이브리드 세단과 비교해도 합리적인 가격 정책을 고수했다는 평가가 지배적입니다. 특히, 볼보자동차코리아는 한국 시장의 중요성을 인지하고 글로벌 본사와의 다각적인 조율 끝에 플래그십 차량 가격에 대한 한국 소비자들의 심리적 장벽을 낮추기 위해 기존 가솔린 플러그인 하이브리드 모델인 XC90 T8 대비 약 1천만 원가량 낮은 파격적인 금액 수준으로 엔트리 트림을 책정하는 결단을 내렸습니다.</p>
+            <p>최근에는 최신 제미나이 또는 챗지피티 기술을 접목한 똑똑한 AI 기반의 차량 정보 추천 시스템과 실시간 다이렉트 온라인 견적 계산기 어플 등을 활용하여 직접 세부 비용 항목을 계산하고 비대면 모바일 상담 및 신차 컨설팅 신청을 즉각 처리하는 젊은 층 스마트 오너들이 눈에 띄게 늘고 있는 추세입니다. 본 가이드북에서는 2026년도 최신 업데이트 데이터를 바탕으로 볼보 EX90의 트림별 실제 출고 가격부터 주행 거리, 구매 방식별 장단점을 투명하게 비교해 드리겠습니다.</p>
+
+            <h3>네이버 검색창 및 스마트 디바이스 관련 주요 연관 키워드</h3>
+            <div class="keyword-tags">
+                <span>볼보 EX90 가격</span>
+                <span>볼보 EX90 6인승</span>
+                <span>볼보 EX90 보조금</span>
+                <span>볼보 EX90 제원</span>
+                <span>볼보 EX90 출시일</span>
+                <span>볼보 EX90 7인승</span>
+                <span>수입 대형 전기 SUV 추천</span>
+                <span>볼보 EX90 실주행거리</span>
+                <span>볼보 EX90 리스 견적</span>
+                <span>볼보 EX90 장기렌트 가격</span>
+                <span>볼보 EX90 모의계산기</span>
+                <span>볼보 전기차 보조금 지원금</span>
+                <span>EX90 단점 장단점 비교</span>
+                <span>볼보 EX90 중국 생산 Daqing</span>
+                <span>대형 전기 패밀리카 최저가</span>
+            </div>
+            <p>위 키워드 분류를 통해 알 수 있듯이 대다수 소비자는 차량의 순수한 차량 가격뿐만 아니라 국가 및 지자체에서 배정하는 보조금과 최적의 구매 방식에 대한 궁금증이 매우 큽니다. 이에 따라 상세한 모델 분류와 세부적인 지표를 순차적으로 정리해 드리겠습니다.</p>
+        </section>
+
+        <section id="price-table">
+            <h2>2026년형 볼보 EX90 공식 판매 트림별 가격표 및 스펙 정밀 분석</h2>
+            <p>국내에 정식 수입되어 본격적인 인도 프로세스가 개시된 볼보 EX90 라인업은 106kWh 고용량 니켈 코발트 망간 삼원계 NCM 배터리를 기본 뼈대로 설계되었습니다. 사륜구동 기반의 트윈 모터와 성능을 극대화한 트윈 모터 퍼포먼스 두 종류의 파워트레인을 탑재하고 있으며, 실내 거주성 극대화를 위해 7인승과 고급형 독립 캡틴 시트를 적용한 6인승의 실내 시트 구조 종류로 라인업이 구성되어 기호에 맞춰 신청이 가능합니다.</p>
+            
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>세부 트림 및 사양 종류</th>
+                            <th>공식 출시 가격</th>
+                            <th>구동 및 모터 형식</th>
+                            <th>승차 정원</th>
+                            <th>배터리 용량 및 국내 인증 주행거리</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Twin Motor Plus (트윈 모터 플러스)</td>
+                            <td>106,200,000 원</td>
+                            <td>AWD (듀얼 모터 / 456마력)</td>
+                            <td>7인승</td>
+                            <td>106kWh NCM / 복합 약 448km (상온 최대 550km 예상)</td>
+                        </tr>
+                        <tr>
+                            <td>Twin Motor Ultra (트윈 모터 울트라)</td>
+                            <td>116,200,000 원</td>
+                            <td>AWD (듀얼 모터 / 456마력)</td>
+                            <td>7인승</td>
+                            <td>106kWh NCM / 복합 약 448km</td>
+                        </tr>
+                        <tr>
+                            <td>Twin Motor Ultra (트윈 모터 울트라)</td>
+                            <td>118,200,000 원</td>
+                            <td>AWD (듀얼 모터 / 456마력)</td>
+                            <td>6인승</td>
+                            <td>106kWh NCM / 복합 약 448km</td>
+                        </tr>
+                        <tr>
+                            <td>Twin Motor Performance Ultra (퍼포먼스 울트라)</td>
+                            <td>121,200,000 원</td>
+                            <td>AWD (고출력 듀얼 / 680마력)</td>
+                            <td>7인승</td>
+                            <td>106kWh NCM / 복합 약 448km (최고출력 향상 적용)</td>
+                        </tr>
+                        <tr>
+                            <td>Twin Motor Performance Ultra (퍼포먼스 울트라)</td>
+                            <td>123,200,000 원</td>
+                            <td>AWD (고출력 듀얼 / 680마력)</td>
+                            <td>6인승</td>
+                            <td>106kWh NCM / 복합 약 448km (가장 고성능 모델)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>핵심 탑재 사양 및 주행 관련 변경 사항 분석</h3>
+            <p>2026년형 볼보 EX90의 핵심 변경 사항 중 눈에 띄는 기술적 차이점은 기존의 하드웨어 한계를 대폭 뛰어넘는 800V 초고압 충전 전동 시스템 아키텍처의 탑재 여부입니다. 이를 통하여 가정용 혹은 범용 충전기가 아닌 초고속 급속 충전 스테이션 이용 시 단 30분 이내에 배터리 잔량 10% 상태에서 80%까지 충전하는 스마트 급속 제어 성능을 완성하였습니다.</p>
+            <p>또한, 차량의 심장부와 같은 디지털 인포테인먼트 요소로 퀄컴 스냅드래곤 콕핏 소프트웨어 플랫폼에 최적화된 차세대 Volvo Car UX 시스템을 구축하여 이전 세대 차량보다 정보 처리 및 화면 전환 반응 속도가 두 배가량 향상되었습니다. 국내 모델에는 기본적으로 티맵 인포테인먼트 서비스 및 무선 애플 카플레이가 완전히 빌트인 되어 있으며, 네이버 웨일 브라우저 기능 연동을 통해 차량 정차 시에도 오프라인 휴식 시간 동안 OTT 스트리밍 등의 다양한 문화 이벤트를 간편히 즐기실 수 있습니다.</p>
+        </section>
+
+        <section id="buying-strategy">
+            <h2>볼보 EX90 합리적인 구매 방법: 장기렌트, 리스 및 다이렉트 최저가 금융 설계</h2>
+            <p>일반적으로 취등록세를 일시불로 전액 선납해야 하는 초기 현금 유출 방식과 달리, 최근 수입 대형 럭셔리 카 시장에서는 법인 사업자 및 전문 개인 사업자는 물론 일반 고소득 직장인들 사이에서도 리스 또는 장기렌트 상품의 활용 비중이 매우 높아졌습니다. 통신사 인터넷 신규 요금제 가입 시 최신 모바일 제휴 혜택과 현금지원, 다양한 고가 사은품 및 이마트 홈플러스 모바일 상품권 이벤트를 꼼꼼히 비교해 가입 신청하는 것과 마찬가지로, 차량 계약 시에도 리스/렌트의 세금 절감 혜택과 다이렉트 최저가 비교를 진행하는 전문 에이전시 업체의 컨설팅을 받는 것이 매달 청구되는 가입 월 요금을 아끼는 핵심 비결입니다.</p>
+            
+            <h3>개인/법인 리스 금융 이용 시의 장점</h3>
+            <p>사업자의 경우 볼보 EX90 리스를 이용하게 되면 매달 지출되는 리스료 요금을 연간 최대 1,500만 원 한도 내에서 합법적으로 경비 처리 및 세무 비용 절약 혜택을 온전히 누릴 수 있습니다. 또한 금융사 명의로 등록이 진행되므로 개인의 자산 내역으로 다이렉트 편입되지 않아 건강보험료나 기타 종합 자산 세금 관련 요금 증액 우려가 전혀 없는 것이 강력한 장점입니다. 렌트카 번호판 대신 일반 승용차 번호판을 사용하므로 수입 럭셔리 브랜드 본연의 사회적 품위 유지를 중요하게 여기시는 법인 대표님들께 제일 먼저 추천되는 거래 유형입니다.</p>
+
+            <h3>장기렌트 금융 이용 시의 단점과 장점 차이점 분석</h3>
+            <p>장기렌트는 리스와 달리 매달 납부하는 렌트 비용 내에 취등록세, 자동차세, 연간 의무 보험료 등 모든 가입 유지비 요금이 이미 100% 원스톱 통합되어 있어 가계 자산 관리가 무척 깔끔해집니다. 혹시 운전 중 과실 사고가 나더라도 렌트사 전용 면책 제도를 활용하여 할증 요금 페널티가 전혀 없다는 안전망이 돋보입니다. 하지만 단점으로는 하, 허, 호 등의 영업용 렌터카 전용 번호판을 부착하여 출고해야 하며, 개인의 무사고 보험 경력이 오랜 기간 이어지지 않고 일시 단절되는 고유의 마이너스 요소가 존재하므로 두 거래 방식 간의 명확한 장단점 비교가 필요합니다.</p>
+
+            <h3>전기차 지자체 구매 지원금 혜택 및 수입차 온라인 프로모션 정보</h3>
+            <p>정부의 친환경 장려 정책에 따른 전기차 국비 및 지방자치단체 개별 지원금은 볼보 EX90의 기본 차량 단가가 8,500만 원 기준선을 초과함에 따라 세부 배터리 친환경 혁신 가중치가 차등 적용되어 부분적인 국고 지원금만 지급될 예정입니다. 대략적으로 서울시 기준 평균 약 200만 원대에서 세부 사양에 따라 경기도 등 지자체별로 최대 300만 원 초반의 보조금 차액 금액이 예상됩니다. 차량 수령 즉시 적용 가능한 개인별 정밀 보조금 신청 하는법과 온라인 다이렉트 신차 금융 성지의 좌표나 비공식 현금지원 이벤트를 전문적으로 다루는 업체를 정기적으로 확인해 보시기 바랍니다.</p>
+        </section>
+
+        <section id="reviews">
+            <h2>디시, 보배드림, 에펨코리아(펨코) 등 주요 커뮤니티 실제 오너 내돈내산 시승 후기 요약</h2>
+            <p>신차 인도 및 공식 시승 행사 이후 국내 자동차 마니아들의 정보 허브인 보배드림, 디시인사이드 자동차 갤러리(디시), 그리고 에펨코리아(펨코) 게시판 등지에서는 실존하는 EX90의 디자인 완성도와 수입 원산지 등 뜨거운 감자에 대한 자유도 높은 가입 논쟁과 내돈내산 실 오너들의 종합 비교 후기가 이어지고 있습니다. 이 중 예비 계약자분들이 참고하시면 좋을 객관적 주장을 선별 요약하였습니다.</p>
+            
+            <h3>긍정 평가 요소 (장점 중심)</h3>
+            <p>사용자들이 제일 먼저 꼽는 극찬 포인트는 볼보의 독보적인 오디오 시스템 기술력입니다. 울트라 사양에 탑재된 바워스 앤 윌킨스 프리미엄 서라운드 사운드 옵션은 탑승객의 귀를 정밀하게 사로잡는 최정상급 음향 입체감을 표현하여 마치 유명 콘서트 홀 중앙에 앉아 있는 듯한 감동을 선사한다는 평가가 대부분입니다. 시내 정체 시 및 장거리 고속도로 주행 시에도 무선 업데이트가 지원되는 파일럿 어시스트 제어 성능이 한층 성숙해져 피로도가 확연히 경감된다는 내돈내산 시승 후기 글들이 지속적으로 공유되고 있습니다.</p>
+
+            <h3>부정 평가 및 아쉬운 부분 (단점 중심)</h3>
+            <p>다소 민감하게 논의되는 아쉬운 점은 글로벌 유통 합리화 정책으로 인해 아시아권 및 대한민국에 판매 배정되는 초도 물량의 생산 공장이 스웨덴 예테보리가 아닌 중국 대경(Daqing) 공장에서 제작 및 조입되어 수출된다는 사실입니다. 아무리 엄격한 스웨덴 볼보 본사의 조립 정밀 품질 검사 장비와 프리미엄 안전 스탠다드를 똑같이 적용한다고 해도, 1억 원이 훌쩍 넘는 금액대 플래그십 차량에 메이드 인 차이나 감성이 부가된다는 점이 일부 에펨코리아나 보배드림의 깐깐한 수입차 오너들의 반발 심리를 자극하는 요인으로 꼽히고 있습니다. 또한, 기존 루프 구조에서 우뚝 솟아 있었던 라이다(LiDAR) 센서 배치가 국내 전파 전송 및 현지 호환성 패키징에 기인하여 일시 제외되었다는 의문 부호가 다소 단점으로 거론됩니다.</p>
+        </section>
+
+        <section id="calculator">
+            <h2>볼보 EX90 실시간 가격 및 예상 월납입금 견적 모의 계산기</h2>
+            <p>볼보 EX90 구매를 원하시는 고객님께서는 원하시는 세부 세부 트림 종류와 초기 자금 규모, 계약 유지 개월 수를 조정하여 간편하게 매월 대략 얼마의 예상 납입 금액을 지불해야 하는지 정밀 가상 계산을 해보실 수 있습니다. 인터넷 성지나 저렴한곳 대리점 좌표에서 별도의 회원가입을 요구하는 번거로움 없이 직관적으로 직접 계산이 가능합니다.</p>
+            
+            <div class="calculator-box">
+                <form id="ex90-calc-form" onsubmit="event.preventDefault();">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="calc-trim">선택할 볼보 EX90 라인업 및 가격</label>
+                            <select id="calc-trim" required onchange="updateFormValues();">
+                                <option value="">모델 트림 종류 선택</option>
+                                <option value="plus-7">Twin Motor Plus 7인승 (1억 620만 원)</option>
+                                <option value="ultra-7">Twin Motor Ultra 7인승 (1억 1,620만 원)</option>
+                                <option value="ultra-6">Twin Motor Ultra 6인승 (1억 1,820만 원)</option>
+                                <option value="perf-7">Twin Motor Performance Ultra 7인승 (1억 2,120만 원)</option>
+                                <option value="perf-6">Twin Motor Performance Ultra 6인승 (1억 2,320만 원)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="calc-region">구매 인도 예정 지역 (전기차 보조금 적용)</label>
+                            <select id="calc-region" onchange="updateFormValues();">
+                                <option value="seoul">서울특별시 (국비+지방비 약 210만 원 지원)</option>
+                                <option value="gyeonggi">경기도 (국비+지방비 평균 약 320만 원 지원)</option>
+                                <option value="incheon">인천광역시 (국비+지방비 약 300만 원 지원)</option>
+                                <option value="busan">부산광역시 (국비+지방비 약 260만 원 지원)</option>
+                                <option value="none">기타/보조금 미적용 (일시 예산 소진 가정)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="calc-downpayment">초기 인도 납입 보증금 비율</label>
+                            <div class="range-slider-container">
+                                <input type="range" id="calc-downpayment" min="10" max="50" step="5" value="30" oninput="document.getElementById('downpayment-txt').innerText = this.value + '%'; updateFormValues();">
+                                <span class="range-value" id="downpayment-txt">30%</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="calc-term">리스/장기렌트 약정 개월 수</label>
+                            <select id="calc-term" onchange="updateFormValues();">
+                                <option value="36">36개월 약정</option>
+                                <option value="48">48개월 약정</option>
+                                <option value="60" selected>60개월 약정 (가장 많은 선택 종류)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>원하는 신차 구매 금융 거래 형식</label>
+                            <div style="display: flex; gap: 1.5rem; padding: 0.85rem 0;">
+                                <label style="font-weight: 500; font-size: 0.95rem; cursor: pointer;">
+                                    <input type="radio" name="calc-type" value="lease" checked onclick="updateFormValues();"> 운용 리스 (품위 유지 번호판)
+                                </label>
+                                <label style="font-weight: 500; font-size: 0.95rem; cursor: pointer;">
+                                    <input type="radio" name="calc-type" value="rent" onclick="updateFormValues();"> 장기 렌트 (세금 종합 포함)
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="calc-insurance">개인 맞춤 무사고 할인 특약 연동 여부</label>
+                            <select id="calc-insurance">
+                                <option value="yes">다이렉트 대인 무사고 할인 연동 적용</option>
+                                <option value="no">기본 표준 할인 조건 대입</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group form-group-full">
+                            <label for="calc-name">상세 할인 혜택 및 즉시출고 선착순 정보 신청 (선택사항)</label>
+                            <input type="text" id="calc-name" placeholder="상담 시 연락 가능한 성함 및 카카오톡 텔레그램 등의 연락 정보를 가볍게 적어주세요.">
+                            <small style="margin-top: 0.4rem; color: #64748b;">위 작성 정보는 고객님의 체류 대기 시간 동안 실시간 금융 맞춤 견적 조율을 위해 상담 희망 시에만 활용됩니다.</small>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn-calculate" onclick="calculateEstimatedCost();">볼보 EX90 실시간 견적 모의 계산 실행</button>
+                </form>
+
+                <div class="calc-result-panel" id="calculator-result">
+                    <h4>정밀 모의 견적 계산 종합 산출서 (2026년형 볼보 EX90)</h4>
+                    <div class="result-row">
+                        <span>선택 모델 기본 신차 차량 가격</span>
+                        <span class="val" id="res-base-price">0 원</span>
+                    </div>
+                    <div class="result-row">
+                        <span>전기차 정부 및 지자체 예상 지원금</span>
+                        <span class="val" id="res-subsidy">0 원</span>
+                    </div>
+                    <div class="result-row">
+                        <span>지원금 공제 후 실제 계약 기준 총금액</span>
+                        <span class="val" id="res-net-price">0 원</span>
+                    </div>
+                    <div class="result-row">
+                        <span>초기 계약 인도 설정금 (보증금)</span>
+                        <span class="val" id="res-downpayment">0 원 (30%)</span>
+                    </div>
+                    <div class="result-total">
+                        <span>예상되는 매월 납입 금액 요금</span>
+                        <span class="total-val" id="res-monthly">0 원</span>
+                    </div>
+                    <p style="font-size: 0.8rem; color: #94a3b8; margin-top: 1.5rem; text-align: center; margin-bottom: 0;">
+                        본 결과는 프로모션 변동 및 제휴 신용카드 사은품 현금지원 등의 옵션 차이점에 따라 실제 수량 인도 시 최종 월 이용료 요금제 액수와 일부 차이가 있을 수 있으며, 상세 견적은 공식 대리점 및 제휴 고객센터 카카오톡 등을 통해 정식 상담 신청으로 확인이 가능합니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="visual-graph">
+            <h2>대형 럭셔리 친환경 SUV 연간 가상 유지 비용 비교 분석</h2>
+            <p>전기 SUV인 볼보 EX90과 내연기관 플러그인 하이브리드(PHEV) 대형 SUV인 XC90 T8 모델을 1년 주행 거리 약 15,000km 조건으로 탑승하고 유지비를 토스 앱이나 신용카드 요금제 기준으로 계산 및 비교했을 때 발생하는 유지 요금 편차를 아래의 그래프를 통해 시각적으로 확인해 보실 수 있습니다.</p>
+            
+            <div class="graph-container">
+                <p class="graph-title">연간 차량 주행 유지 충전 요금 및 차량세 종합 예상 합산치 (가상 통계치)</p>
+                
+                <div class="graph-item">
+                    <div class="graph-label">볼보 EX90 (순수전기)</div>
+                    <div class="graph-bar-wrapper">
+                        <div class="graph-bar-value" id="bar-ev" style="width: 35%;">연간 약 110만 원 선</div>
+                    </div>
+                </div>
+                
+                <div class="graph-item">
+                    <div class="graph-label">XC90 T8 (하이브리드)</div>
+                    <div class="graph-bar-wrapper">
+                        <div class="graph-bar-value" id="bar-phev" style="width: 80%;">연간 약 280만 원 선</div>
+                    </div>
+                </div>
+
+                <div class="graph-item">
+                    <div class="graph-label">일반 대형 휘발유 가솔린 차</div>
+                    <div class="graph-bar-wrapper">
+                        <div class="graph-bar-value" id="bar-ice" style="width: 100%;">연간 약 390만 원 선</div>
+                    </div>
+                </div>
+            </div>
+            <p>비교 그래프에서 직관적으로 확인할 수 있듯이, 상대적으로 취득 단가 금액 자체는 높게 느껴질지라도 매일 차량을 몰며 발생하는 고전압 배터리 충전 요금이 내연기관 기름값 주유 비용 및 매년 납부하는 자동차 배기량 기준 세금 요금보다 크게 저렴하여 오래 소유할수록 경제적인 이익 마진이 비약적으로 향상되는 장점을 갖고 있습니다.</p>
+        </section>
+
+        <section id="faq">
+            <h2>자주 묻는 질문 (FAQ) - 볼보 EX90 가격 및 차량 인수 절차</h2>
+            <div class="faq-wrapper">
+                <div class="faq-item">
+                    <div class="faq-question">Q. 볼보 EX90의 한국 수입 물량이 중국 생산분이라는데 조립 품질이나 내구성 장단점 차이점은 없나요?</div>
+                    <div class="faq-answer">
+                        A. 네, 그렇습니다. 이번에 한국 시장에 유통되는 EX90 전 물량은 중국 다칭(Daqing)에 위치한 글로벌 거점 공장에서 전담 생산됩니다. 그러나 조립 라인의 하드웨어 매뉴얼과 정밀 센서, 핵심 제어 로직 보드 등은 볼보 본사 연구진이 똑같이 엄격하게 설계 및 감리하기 때문에 마감 불량이나 주행 정밀도 등의 단점에 대해서는 큰 우려가 없다는 것이 볼보코리아 고객센터 측의 공식 기술적 설명입니다. 실제로 보배드림이나 동호회의 실사 확인 주행 후기에서도 이질감 없는 높은 마감 퀄리티를 유지하고 있음이 증명되었습니다.
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Q. 전기차 국고 보조금 지원금과 매달 할인 금액은 어떻게 매칭 신청을 진행하게 되나요?</div>
+                    <div class="faq-answer">
+                        A. 볼보 EX90 차량 출고 계약 전담 딜러나 금융 가맹 업체를 통하여 구매 약정 및 신규 계약을 확정하시면 대리점에서 관할 시청이나 구청 전기차 접수 담당 부서에 지원금 신청 절차를 일괄적으로 온라인 대행 접수 처리해 드립니다. 고객님께서는 직접 복잡한 행정 서류를 일일이 준비해 가며 하는법을 연구하실 필요가 없으며, 최종 견적 발행 시 지자체 몫의 지원금 금액을 원천 차감한 순수 실납입 인도 금액만 간편히 확인 후 지불하시면 완료됩니다.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q. 대형 전기 SUV 전용 다이렉트 자동차 보험료 요금은 대략 얼마 정도 계산되어 청구되나요?</div>
+                    <div class="faq-answer">
+                        A. 개인의 무사고 가입 기간이나 나이에 따라 평균적인 비용 차이가 크게 나지만, 차량 본체 보상 가액이 1억 원을 상회하는 대형 전기차 종류이므로 평균 약 120만 원에서 200만 원 내외의 자동차 보험 가입 금액이 책정됩니다. 조금이라도 고액 요금을 절감하고 최저가 할인을 확보하기 위해서는 카카오톡 및 토스 같은 모바일 어플의 내 차 보험료 계산기 메뉴나 인터넷 다이렉트 연동 사이트를 통한 개별 비교 가입을 강력하게 추천해 드립니다.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="references">
+            <h2>신뢰할 수 있는 공식 수입 전기차 정보 및 대외 참고 사이트</h2>
+            <p>볼보 EX90의 구매 관련 최신 법규 정보와 전동화 세제 감면 정책 가이드북, 그리고 정밀 제조 스펙을 더욱 확실하게 검토하고 싶으신 경우에는 아래의 공신력 높은 외부 출처의 관련 사이트 페이지를 방문하시어 세부 지침을 참고하시는 방법을 추천해 드립니다.</p>
+            
+            <div class="external-links">
+                <a href="https://directocheckz.koreahankang.com" target="_blank" rel="noopener nofollow">수입 프리미엄 전기차 금융 최저가 계산 분석 솔루션 (reliabledone 서브도메인 제공 사이트)</a>
+                <a href="https://namu.wiki/w/%EB%B3%BC%EB%B3%B4%20EX90" target="_blank" rel="noopener">나무위키 - 볼보 EX90 모델 개발 가이드 및 히스토리 상세 정보</a>
+                <a href="https://www.volvocars.com/kr/cars/ex90/" target="_blank" rel="noopener">볼보자동차코리아 공식 수입 판매 전용 온라인 홈페이지</a>
+            </div>
+            <p style="margin-top: 1.5rem; text-align: center; font-size: 0.9rem; color: #64748b;">
+                소비자 연대 정보와 정부 세제 할인 변동 정보는 대한민국 법령 정보 포털과 환경부 무공해차 통합관리 온라인 사이트의 소식을 함께 지켜보시면 현명한 내돈내산 출고에 큰 도움이 될 것입니다.
+            </p>
+        </section>
+
+        <a href="#calculator" class="cta-bottom-button">볼보 EX90 실시간 견적 모의 계산해보기</a>
     </main>
-  </body>
-</html>
+
+  
+    <script>
+        // FAQ 아코디언 토글 제어 스크립트
+        document.querySelectorAll('.faq-question').forEach((item) => {
+            item.addEventListener('click', () => {
+                const answer = item.nextElementSibling;
+                const isOpened = answer.style.display === 'block';
+
+                // 기존 열려있는 답변 전체 닫기
+                document.querySelectorAll('.faq-answer').forEach(ans => {
+                    ans.style.display = 'none';
+                });
+
+                if (!isOpened) {
+                    answer.style.display = 'block';
+                }
+            });
+        });
+
+        // 폼 입력 시 변화를 관측하여 실시간 결과 반영에 대한 예시 함수 정의
+        function updateFormValues() {
+            const trimSelect = document.getElementById('calc-trim');
+            if (trimSelect.value !== '') {
+                // 사용자가 값을 입력/수정하고 있을 때 인터랙티브하게 계산을 유도하도록 결과 가시성 살짝 제어 가능
+            }
+        }
+
+        // 실시간 가상 견적 월 납입금 연산 실행기
+        function calculateEstimatedCost() {
+            const basePriceMap = {
+                'plus-7': 106200000,
+                'ultra-7': 116200000,
+                'ultra-6': 118200000,
+                'perf-7': 121200000,
+                'perf-6': 123200000
+            };
+            
+            const trimValue = document.getElementById('calc-trim').value;
+            const regionValue = document.getElementById('calc-region').value;
+            const downPercent = parseInt(document.getElementById('calc-downpayment').value) || 30;
+            const termValue = parseInt(document.getElementById('calc-term').value) || 60;
+            const contractType = document.querySelector('input[name="calc-type"]:checked').value;
+            
+            if (!trimValue) {
+                alert('가격을 산출할 볼보 EX90 모델 트림 종류를 먼저 목록에서 선택해 주세요.');
+                return;
+            }
+            
+            const basePrice = basePriceMap[trimValue];
+            
+            // 각 지자체별 간략 산출 보조금 수치 대입
+            let subsidy = 0;
+            if (regionValue === 'seoul') subsidy = 2100000;
+            else if (regionValue === 'gyeonggi') subsidy = 3200000;
+            else if (regionValue === 'incheon') subsidy = 3000000;
+            else if (regionValue === 'busan') subsidy = 2600000;
+            else if (regionValue === 'none') subsidy = 0;
+            
+            const netPrice = basePrice - subsidy;
+            const downpaymentAmount = netPrice * (downPercent / 100);
+            const principal = netPrice - downpaymentAmount;
+            
+            // 이율 가산치 (리스 및 렌트 가중치 적용)
+            let annualInterestRate = 0.046; // 표준 4.6% 이율 설정
+            if (contractType === 'rent') {
+                annualInterestRate = 0.052; // 장기렌트의 경우 보험 및 지방세 통합 가산율 대입
+            } else if (contractType === 'lease') {
+                annualInterestRate = 0.043; // 리스 전용 다이렉트 우대 금리 대입
+            }
+            
+            // 약정 기간별 연이자 계산 간이 산출식 적용
+            const totalEstimatedInterest = principal * annualInterestRate * (termValue / 12);
+            const totalRepayment = principal + totalEstimatedInterest;
+            const monthlyInst = totalRepayment / termValue;
+            
+            // 화면 텍스트 요소 포맷 변환 후 투영
+            document.getElementById('res-base-price').innerText = Math.round(basePrice).toLocaleString() + ' 원';
+            document.getElementById('res-subsidy').innerText = Math.round(subsidy).toLocaleString() + ' 원';
+            document.getElementById('res-net-price').innerText = Math.round(netPrice).toLocaleString() + ' 원';
+            document.getElementById('res-downpayment').innerText = Math.round(downpaymentAmount).toLocaleString() + ' 원 (' + downPercent + '%)';
+            document.getElementById('res-monthly').innerText = Math.round(monthlyInst).toLocaleString() + ' 원';
+            
+            // 결과 패널 출력 활성화
+            const resPanel = document.getElementById('calculator-result');
+            resPanel.style.display = 'block';
+            
+            // 스크롤 포커스 이동 처리로 시각 피드백 제공
+            resPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        // 웹 브라우저 로드 즉시 시각 그래프의 게이지 너비 자연스럽게 채우는 인터랙션 구현
+        window.onload = () => {
+            const evBar = document.getElementById('bar-ev');
+            const phevBar = document.getElementById('bar-phev');
+            const iceBar = document.getElementById('bar-ice');
+
+            const evVal = evBar.style.width;
+            const phevVal = phevBar.style.width;
+            const iceVal = iceBar.style.width;
+
+            // 너비 리셋 후 딜레이 주어 로딩 효과 부여
+            evBar.style.width = '0%';
+            phevBar.style.width = '0%';
+            iceBar.style.width = '0%';
+
+            setTimeout(() => {
+                evBar.style.width = evVal;
+                phevBar.style.width = phevVal;
+                iceBar.style.width = iceVal;
+            }, 250);
+        };
+    </script>
+  
